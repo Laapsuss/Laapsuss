@@ -22,7 +22,7 @@ I build and run complete products with AI coding agents: I write the specs and t
 
 - Rules before code: each repository carries the invariants agents must not break (server-side pricing, forward-only migrations, privacy constraints).
 - One task, one branch, one worktree; up to four in parallel.
-- Evidence over claims: analysis, tests, build output and a run on staging before anything is merged.
-- Staging first, production through a reviewed promotion — never directly.
+- Evidence over claims: analysis, tests, build output and a run on staging before I integrate a change.
+- Staging first, production through a promotion pull request — never directly.
 
 [LinkedIn](https://www.linkedin.com/in/mohamed-el-mhamdi-8b889824b) · [klastay.com](https://klastay.com)
